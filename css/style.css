@@ -36,6 +36,9 @@ body {
     text-decoration: none;
     padding: 12px 20px 11px;
 }
+.nav-link:hover {
+    font-weight: 600;
+}
 .head {
     display: flex;
     justify-content: space-between;
@@ -81,3 +84,111 @@ body {
 }
 
 
+/* второй блок */
+.service {
+    margin-top: 100px;
+    margin-bottom: 103px;
+}
+.head-title {
+    color: #555;
+}
+.head-title h2 {
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.line {
+    border: 2px solid #555;
+    width: 50px;
+    margin: 30px auto;
+}
+.blok_logo {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 33%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 23px 0;
+    text-align: center;
+  }
+  .flexbox_item {
+
+  }
+  .flexbox_item h3 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin: 0px 0px 15px 0px;
+    font-size: 24px;
+    color: #555;
+  }
+  .flexbox_item p {
+      font-size: 14px;
+  }
+  .flexbox_icon {
+    height: 90px;
+    width: 90px;
+    border: 2px solid #555555;
+    border-radius: 100%;
+    margin: 0 auto 52px;
+    position: relative;
+    transition: 0.2s;
+  }
+  .flexbox_icon:hover {
+    border: 2px solid #c0301c;
+
+  }
+  .flexbox_icon::after {
+    content: '';
+    background-image: url(../img/sprite.png);
+    position: absolute;
+  }
+  
+  .flexbox_icon_A::after{
+    background-image: url(../img/sprite.png);
+    width: 47px;
+    height: 72px;
+    background-position: -1px -55px;
+    top: calc(50% - 34px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .flexbox_icon_Tag::after{
+    background-image: url(../img/sprite.png);
+    width: 63px;
+    height: 59px;
+    background-position: -71px -56px;
+    top: calc(50% - 29px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .flexbox_icon_circle::after{
+    background-image: url(../img/sprite.png);
+    width: 52px;
+    height: 61px;
+    background-position: -157px -49px;
+    top: calc(50% - 33.5px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .flexbox_icon_A:hover::after{
+    background-position: -1px -96px;
+  }
+  .flexbox_icon_Tag:hover::after{
+    background-position: -71px -96px;
+  }
+  .flexbox_icon_circle:hover::after{
+    background-position: -157px -96px;
+  }
+  
+  .flexbox_icon:hover {
+    background-color: #c0301c;
+  }
+  
+  /* Третий блок */
