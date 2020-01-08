@@ -278,3 +278,21 @@ p {
   background-color: #c0301c;
   color: #fff;
 }
+/* Четвертый блок с грид */
+.link-grid {
+  color: #555;
+}
+.nav-grid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 15px 15px;
+}
+
+.grid-hover {
+  display: none;
+}
