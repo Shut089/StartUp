@@ -279,6 +279,10 @@ p {
   color: #fff;
 }
 /* Четвертый блок с грид */
+.page-grid {
+  padding-top: 100px;
+  padding-bottom: 99px;
+}
 .link-grid {
   color: #555;
 }
@@ -286,13 +290,103 @@ p {
   display: flex;
   text-align: center;
   justify-content: center;
+  margin-bottom: 70px;
 }
 .grid {
   display: grid;
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-  grid-gap: 15px 15px;
+  grid-gap: 30px 32px;
 }
-
+.grid-item {
+  width: 360px;
+  height: 320px;
+}
+.item1 {
+  background-image: url(../img/work1.png);
+  background-repeat: no-repeat;
+}
+.item2 {
+  background-image: url(../img/work2.png);
+  background-repeat: no-repeat;
+}
+.item3 {
+  background-image: url(../img/work3.png);
+  background-repeat: no-repeat;
+}
+.item4 {
+  background-image: url(../img/work4.png);
+  background-repeat: no-repeat;
+}
+.item5 {
+  background-image: url(../img/work5.png);
+  background-repeat: no-repeat;
+}
+.item6 {
+  background-image: url(../img/work6.png);
+  background-repeat: no-repeat;
+}
+.item7 {
+  background-image: url(../img/work7.png);
+  background-repeat: no-repeat;
+}
+.item8 {
+  background-image: url(../img/work8.png);
+  background-repeat: no-repeat;
+}
+.item9 {
+  background-image: url(../img/work9.png);
+  background-repeat: no-repeat;
+}
 .grid-hover {
   display: none;
+  text-align: center;
+  margin-top: 120px;
+  color: #fff;
 }
+.grid-hover p {
+  color: #fff;
+}
+.item1:hover {
+background-image: url(../img/work11.png);
+}
+.item2:hover {
+  background-image: url(../img/work22.png);
+}
+.item3:hover {
+  background-image: url(../img/work33.png);
+}
+.item4:hover {
+  background-image: url(../img/work44.png);
+}
+.item5:hover {
+  background-image: url(../img/work55.png);
+}
+.item6:hover {
+  background-image: url(../img/work66.png);
+}
+.item7:hover {
+  background-image: url(../img/work77.png);
+}
+.item8:hover {
+  background-image: url(../img/work88.png);
+}
+.item9:hover {
+  background-image: url(../img/work99.png);
+}
+.grid-item:hover .grid-hover{
+  display: block;
+
+}
+.btn-grid {
+  color: #fff;
+  background-color: #c0301c;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+}
+.btn-grid::after {
+  content: '>';
+  margin-left: 6px;
+  margin-top: 0;
+  font-size: 16px;
