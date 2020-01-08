@@ -218,6 +218,9 @@ p {
 .team-blok-text {
   display: flex;
 }
+.text-left {
+  padding-right: 41px;
+}
 .team-one:hover .social{
   display: contents;
 }
@@ -378,8 +381,8 @@ background-image: url(../img/work11.png);
 
 }
 .btn-grid {
-  color: #fff;
-  background-color: #c0301c;
+  color: #c0301c;
+  background-color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   text-decoration: none;
