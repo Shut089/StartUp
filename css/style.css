@@ -198,6 +198,10 @@ p {
 .grey {
   background-color: #f8f8f8;
 }
+.team-blok {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .team-blok-item {
   display: flex;
   justify-content: space-between;
@@ -211,8 +215,24 @@ p {
 .team-blok-item p {
   font-size: 13px;
 }
-.team-blok-flex:hover .social{
+.team-blok-text {
+  display: flex;
+}
+.team-one:hover .social{
   display: contents;
+}
+.team-two:hover .social{
+  display: contents;
+}
+
+.team-blok-flex:hover .fa-chevron-left {
+  background-color: #c2c2c2;
+}
+.team-blok-flex:hover img {
+  background-color: black;
+}
+.team-four:hover .fa-chevron-right {
+  background-color: #c2c2c2;
 }
 .social:hover {
   background-color: #c0301c;
@@ -220,7 +240,7 @@ p {
 
 .blog-social {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   position: absolute;
   top: calc(100% - 117px);
@@ -233,9 +253,28 @@ p {
   color: #fff;
   width: 29px;
   height: 29px;
-  display: contents;
+  display: none; /* Видимый социал */
 }
 .social svg:hover {
   background-color: #c0301c;
 
+}
+.svg-inline--fa {
+  width: 16px;
+  height: 16px;
+  padding: 5px;
+}
+.fa-chevron-left {
+  position: absolute;
+  top: calc(100% - 212px);
+  left: 0;
+  background-color: #c0301c;
+  color: #fff;
+}
+.fa-chevron-right {
+  position: absolute;
+  top: calc(100% - 212px);
+  right: 0;
+  background-color: #c0301c;
+  color: #fff;
 }
