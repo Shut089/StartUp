@@ -5,6 +5,9 @@ body {
     padding: 0;
     margin: 0;
 }
+p {
+  color: #555555;
+}
 .wrapper {
     width: 100%;
     max-width: 1142px;
@@ -192,3 +195,47 @@ body {
   }
   
   /* Третий блок */
+.grey {
+  background-color: #f8f8f8;
+}
+.team-blok-item {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.team-blok-item h3 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #555;
+}
+.team-blok-item p {
+  font-size: 13px;
+}
+.team-blok-flex:hover .social{
+  display: contents;
+}
+.social:hover {
+  background-color: #c0301c;
+}
+
+.blog-social {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  position: absolute;
+  top: calc(100% - 117px);
+  left: 67px;
+  text-align: center;
+  border: none;
+  width: 127px;
+}
+.social {
+  color: #fff;
+  width: 29px;
+  height: 29px;
+  display: contents;
+}
+.social svg:hover {
+  background-color: #c0301c;
+
+}
