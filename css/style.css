@@ -393,3 +393,18 @@ background-image: url(../img/work11.png);
   margin-left: 6px;
   margin-top: 0;
   font-size: 16px;
+}
+/* Пятый блок */
+.page-bg {
+  background-image: url(../img/Paralax.jpg);
+  height: 369px;
+  width: 100%;
+}
+.page-bg-item {
+  margin: 0 auto;
+  width: 460px;
+  text-align: center;
+  color: #fff;
+  padding-top: 99px;
+  padding-bottom: 40px;
+}
