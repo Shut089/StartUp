@@ -148,24 +148,25 @@ p {
     content: '';
     background-image: url(../img/sprite.png);
     position: absolute;
+    background-repeat: no-repeat;
   }
   
   .flexbox_icon_A::after{
     background-image: url(../img/sprite.png);
-    width: 47px;
-    height: 72px;
-    background-position: -1px -55px;
-    top: calc(50% - 34px);
+    width: 44px;
+    height: 56px;
+    background-position: 0px -54px;
+    top: calc(50% - 38px);
     left: 0;
     right: 0;
     margin: 0 auto;
   }
   .flexbox_icon_Tag::after{
     background-image: url(../img/sprite.png);
-    width: 63px;
-    height: 59px;
-    background-position: -71px -56px;
-    top: calc(50% - 29px);
+    width: 60px;
+    height: 53px;
+    background-position: -70px -57px;
+    top: calc(50% - 32px);
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -173,21 +174,21 @@ p {
   .flexbox_icon_circle::after{
     background-image: url(../img/sprite.png);
     width: 52px;
-    height: 61px;
-    background-position: -157px -49px;
+    height: 58px;
+    background-position: -159px -53px;
     top: calc(50% - 33.5px);
     left: 0;
     right: 0;
     margin: 0 auto;
   }
   .flexbox_icon_A:hover::after{
-    background-position: -1px -96px;
+    background-position: 0px 15px;
   }
   .flexbox_icon_Tag:hover::after{
-    background-position: -71px -96px;
+    background-position: -70px 12px;
   }
   .flexbox_icon_circle:hover::after{
-    background-position: -157px -96px;
+    background-position: -159px 9px;
   }
   
   .flexbox_icon:hover {
@@ -489,6 +490,7 @@ background-image: url(../img/work11.png);
   color: #777;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 700;
 
 }
 .post-item-link:hover {
