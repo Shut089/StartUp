@@ -39,9 +39,6 @@ p {
     text-decoration: none;
     padding: 12px 20px 11px;
 }
-.nav-link:hover {
-    /* font-weight: 600; */
-}
 .head {
     display: flex;
     justify-content: space-between;
@@ -218,6 +215,8 @@ p {
 }
 .team-blok-text {
   display: flex;
+  margin-bottom: 73px;
+  margin-top: 73px;
 }
 .text-left {
   padding-right: 41px;
